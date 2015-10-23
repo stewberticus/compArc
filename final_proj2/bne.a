@@ -1,0 +1,10 @@
+	bne $0, 0, BNE
+	addi $17, $0, 4
+	addi $5, $0, 444
+	bne $17, 5, BNE
+	addi $6, $0, 4
+	addi $7, $0, 4
+	
+BNE:
+	add $18, $0, $3
+	addi  $19, $0,10
